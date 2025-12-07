@@ -67,6 +67,16 @@ body {
     align-items: center;
 }
 
+.nav-brand a {
+    color: white;
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.nav-brand a:hover {
+    opacity: 0.9;
+}
+
 .nav-brand h1 {
     font-size: 1.5rem;
     font-weight: 700;

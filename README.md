@@ -249,6 +249,7 @@ Open source - Feel free to use and modify
 
 **Submitted by**: Pragathi KC  
 **Date**: December 2025  
+**Deadline**: December 8, 2025  
 **Task**: Option 1 - RiseAboveCancer Web Page
 
 ---
