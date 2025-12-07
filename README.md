@@ -248,8 +248,7 @@ Open source - Feel free to use and modify
 ## Submission Information
 
 **Submitted by**: Pragathi KC  
-**Date**: December 2025  
-**Deadline**: December 8, 2025  
+**Date**: December 2025   
 **Task**: Option 1 - Cancer Awareness & Support Web Page
 
 ---
