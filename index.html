@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cancer Awareness & Support - Join us in spreading awareness and supporting those affected by cancer">
+    <title>Cancer Awareness & Support</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Cancer Awareness</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#quotes">Inspiration</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Together We Can Make a Difference</h1>
+            <p class="hero-subtitle">Raising awareness, providing support, and fostering hope for those affected by cancer</p>
+            <a href="#contact" class="cta-button">Get Involved</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Our Mission</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">S</div>
+                    <h3>Support</h3>
+                    <p>Providing emotional and practical support to cancer patients and their families throughout their journey.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">E</div>
+                    <h3>Education</h3>
+                    <p>Spreading awareness about early detection, prevention, and treatment options available.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">C</div>
+                    <h3>Community</h3>
+                    <p>Building a strong community of survivors, caregivers, and advocates united in the fight against cancer.</p>
+                </div>
+            </div>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3 class="stat-number">1M+</h3>
+                    <p>Lives Touched</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">500+</h3>
+                    <p>Support Groups</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">24/7</h3>
+                    <p>Helpline Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inspirational Quotes Section (API Integration) -->
+    <section id="quotes" class="quotes-section">
+        <div class="container">
+            <h2 class="section-title">Words of Inspiration</h2>
+            <p class="section-subtitle">Real-time motivational quotes to uplift your spirit</p>
+            <div id="quote-container" class="quote-container">
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading inspirational quote...</p>
+                </div>
+            </div>
+            <button id="new-quote-btn" class="quote-button">Get New Quote</button>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have questions or want to support our cause? Reach out to us!</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <span class="info-icon">@</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@cancerawareness.org</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">P</span>
+                        <div>
+                            <h4>Helpline</h4>
+                            <p>1-800-CANCER-HELP</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">A</span>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Hope Street, Care City, CC 12345</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">Send Message</span>
+                        <span class="button-loading" style="display: none;">Sending...</span>
+                    </button>
+                    
+                    <div id="form-success" class="success-message" style="display: none;">
+                        Thank you! Your message has been received. We'll get back to you soon.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cancer Awareness & Support</h3>
+                    <p>Dedicated to supporting those affected by cancer and spreading awareness worldwide.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#quotes">Inspiration</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Patient Support</a></li>
+                        <li><a href="#">Treatment Info</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cancer Awareness & Support. Built for a better tomorrow.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
