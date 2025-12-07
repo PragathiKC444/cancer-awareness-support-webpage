@@ -1,4 +1,4 @@
-# Cancer Awareness & Support
+# RiseAboveCancer
 
 A modern, responsive web page dedicated to raising awareness about cancer and providing support to those affected by it.
 
@@ -240,16 +240,17 @@ Open source - Feel free to use and modify
 
 ## Contact
 
-**Organization**: Cancer Awareness & Support  
-**Email**: support@cancerawareness.org  
+**Organization**: RiseAboveCancer  
+**Email**: support@riseabovecancer.org  
 **Helpline**: 1-800-CANCER-HELP  
 **Address**: 123 Hope Street, Care City, CC 12345
 
 ## Submission Information
 
 **Submitted by**: Pragathi KC  
-**Date**: December 2025   
-**Task**: Option 1 - Cancer Awareness & Support Web Page
+**Date**: December 2025  
+**Deadline**: December 8, 2025  
+**Task**: Option 1 - RiseAboveCancer Web Page
 
 ---
 

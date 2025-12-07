@@ -226,6 +226,6 @@ document.querySelectorAll('.about-card, .contact-wrapper').forEach(el => {
 // CONSOLE MESSAGE
 // ===================================
 
-console.log('%cCancer Awareness & Support', 'color: #e91e63; font-size: 24px; font-weight: bold;');
+console.log('%cRiseAboveCancer', 'color: #e91e63; font-size: 24px; font-weight: bold;');
 console.log('%cBuilt for spreading awareness and hope', 'color: #9c27b0; font-size: 14px;');
 console.log('%cTogether we can make a difference!', 'color: #e91e63; font-size: 14px; font-weight: bold;');
